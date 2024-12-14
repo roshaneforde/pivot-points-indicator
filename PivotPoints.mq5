@@ -63,9 +63,6 @@ int OnCalculate(const int rates_total,
     return (rates_total);
   }
 
-  // Remove all lines
-  removeLines();
-
   // Number of candles
   int totalCandles = rates_total - lastSetOfCandles;
 
