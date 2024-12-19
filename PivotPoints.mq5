@@ -40,6 +40,8 @@ int OnInit()
   SetIndexBuffer(0, buyLineBuffer, INDICATOR_DATA);
   SetIndexBuffer(1, sellLineBuffer, INDICATOR_DATA);
 
+  removeLines();
+
   return (INIT_SUCCEEDED);
 }
 
