@@ -14,7 +14,7 @@ For reversal trades, it’s helpful to be familiar with chart patterns like doub
 
 ## Recommended Setup
 
-It’s recommended to have two charts open side by side: one displaying a line chart and the other showing a candlestick chart, with the Pivot Points indicator applied to both. This setup allows you to easily identify the market structure and price action as it approaches key levels. You can also add a 20-period Simple Moving Average (SMA) to both charts to help identify the overall trend. Additionally, consider adding the Relative Strength Index (RSI) to the line chart to confirm overbought or oversold conditions.
+It’s recommended to have two charts open side by side: one displaying a line chart and the other showing a candlestick chart, with the Pivot Points indicator applied to both. This setup allows you to easily identify the market structure and price action as it approaches these levels. You can also add a 20-period Simple Moving Average (SMA) to both charts to help identify the overall trend. Additionally, consider adding the Relative Strength Index (RSI) to the line chart to confirm overbought or oversold conditions.
 
 This approach can be used on​ any timeframe.
 
