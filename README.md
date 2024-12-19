@@ -20,23 +20,23 @@ This approach can be used on​ any timeframe.
 
 ## AUDUSD H1
 
-![AUDUSD H1 Chart Setup](https://github.com/roshaneforde/pivot-points/blob/main/screenshots/audusd.png)
+![AUDUSD H1 Chart Setup](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/audusd.png)
 
 ## GBPJPY H1
 
-![GBPJPY H1 Chart Setup](https://github.com/roshaneforde/pivot-points/blob/main/screenshots/gbpjpy.png)
+![GBPJPY H1 Chart Setup](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/gbpjpy.png)
 
 ##  USDJPY - Trade Example
 
-![USDJPY H1 Trade Example](https://github.com/roshaneforde/pivot-points/blob/main/screenshots/usdjpy-trade-example-h1.png)
+![USDJPY H1 Trade Example](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/usdjpy-trade-example-h1.png)
 
-![USDJPY M15 Trade Example](https://github.com/roshaneforde/pivot-points/blob/main/screenshots/usdjpy-trade-example-m15.png)
+![USDJPY M15 Trade Example](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/usdjpy-trade-example-m15.png)
 
 ## AUDUSD H4 - Full Chart
 
 All pivot points are highlighted on the chart. You can enter a buy trade at each blue line in an uptrend, and a sell trade at each red line in a downtrend.
 
-![AUDUSD H4 Full Chart](https://github.com/roshaneforde/pivot-points/blob/main/screenshots/audusd-full.png)
+![AUDUSD H4 Full Chart](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/audusd-full.png)
 
 ## Indicator Features
 
