@@ -5,7 +5,7 @@
 indicator("Pivot Points", overlay=true)
 
 // Inputs
-lastSetOfCandles = input.int(120, "Number of candles to draw lines on")
+lastSetOfCandles = input.int(100, "Number of candles to draw lines on")
 drawBuyLine = input.bool(true, "Draw Buy Line")
 buyLineColor = input.color(color.blue, "Buy Line Color")
 buyLineStyle = input.string("Dashed", title="Line Style", options=["Solid", "Dashed", "Dotted"])
@@ -17,7 +17,7 @@ sellLineStyle = input.string("Dashed", title="Line Style", options=["Solid", "Da
 sellLineWidth = input.int(1, "Sell Line Width")
 
 // Loop through the last set of candles
-for i = 0 to 100
+for i = 0 to lastSetOfCandles
     // Line prices
     float buyLinePrice = 0
     float sellLinePrice = 0
