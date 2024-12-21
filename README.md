@@ -18,6 +18,8 @@ It’s recommended to have two charts open side by side: one displaying a line c
 
 This approach can be used on​ any timeframe.
 
+You can enter a buy trade at each blue line in an uptrend, and a sell trade at each red line in a downtrend.
+
 ## AUDUSD H1
 
 ![AUDUSD H1 Chart Setup](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/audusd.png)
@@ -34,7 +36,7 @@ This approach can be used on​ any timeframe.
 
 ## AUDUSD H4 - Full Chart
 
-All pivot points are highlighted on the chart. You can enter a buy trade at each blue line in an uptrend, and a sell trade at each red line in a downtrend.
+All pivot points are highlighted on the chart.
 
 ![AUDUSD H4 Full Chart](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/audusd-full.png)
 
