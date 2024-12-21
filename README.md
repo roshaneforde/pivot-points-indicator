@@ -50,6 +50,10 @@ If you have suggestions, improvements, or bug fixes, I encourage you to submit p
 
 Any trading decisions you make are entirely your responsibility.
 
+## Trading View
+
+A version of this indicator is available on [TradingView](https://www.tradingview.com/script/vTIfOWlk-Pivot-Points/).
+
 ## License
 
 [MIT](https://github.com/roshaneforde/retracement-levels-indicator/blob/main/LICENSE.txt).

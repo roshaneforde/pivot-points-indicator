@@ -1,0 +1,63 @@
+// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © roshaneforde
+
+//@version=6
+indicator("Pivot Points", overlay=true)
+
+// Inputs
+lastSetOfCandles = input.int(120, "Number of candles to draw lines on")
+drawBuyLine = input.bool(true, "Draw Buy Line")
+buyLineColor = input.color(color.blue, "Buy Line Color")
+buyLineStyle = input.string("Dashed", title="Line Style", options=["Solid", "Dashed", "Dotted"])
+buyLineWidth = input.int(1, "Buy Line Width")
+
+drawSellLine = input.bool(true, "Draw Sell Line")
+sellLineColor = input.color(color.red, "Sell Line Color")
+sellLineStyle = input.string("Dashed", title="Line Style", options=["Solid", "Dashed", "Dotted"])
+sellLineWidth = input.int(1, "Sell Line Width")
+
+// Loop through the last set of candles
+for i = 0 to 100
+    // Line prices
+    float buyLinePrice = 0
+    float sellLinePrice = 0
+
+    // Bullish pivot point
+    if (open[i + 1] < close[i + 1] and open[i] > close[i])
+        buyLinePrice := close[i + 1]
+
+    // Bearish pivot point
+    if (open[i + 1] > close[i + 1] and open[i] < close[i])
+        sellLinePrice := close[i + 1]
+
+    // Buy line
+    if (buyLinePrice > 0 and drawBuyLine)
+        buyLine = line.new(x1=bar_index[i + 1], y1=close[i + 1], x2=bar_index, y2=close[i + 1], color=buyLineColor, width=1)
+
+        for j = 0 to i
+            if (close[j] > buyLinePrice)
+                line.set_x2(buyLine, bar_index[j])
+
+        if (buyLineStyle == "Dashed")
+            line.set_style(buyLine, line.style_dashed)
+        else if (buyLineStyle == "Dotted")
+            line.set_style(buyLine, line.style_dotted)
+
+        line.set_width(buyLine, buyLineWidth)
+
+    // Sell line
+    if (sellLinePrice > 0 and drawSellLine)
+        sellLine = line.new(x1=bar_index[i + 1], y1=close[i + 1], x2=bar_index, y2=close[i + 1], color=sellLineColor, width=1)
+
+        for j = 0 to i
+            if (close[j] < sellLinePrice)
+                line.set_x2(sellLine, bar_index[j])
+
+        if (sellLineStyle == "Dashed")
+            line.set_style(sellLine, line.style_dashed)
+        else if (sellLineStyle == "Dotted")
+            line.set_style(sellLine, line.style_dotted)
+
+        line.set_width(sellLine, sellLineWidth)
+
+plot(close)
