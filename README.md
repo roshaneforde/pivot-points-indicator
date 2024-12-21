@@ -36,7 +36,7 @@ You can enter a buy trade at each blue line in an uptrend, and a sell trade at e
 
 ## AUDUSD H4 - Full Chart
 
-All pivot points are highlighted on the chart.
+All pivot points are highlighted on the chart. You can enter a buy trade at each blue line in an uptrend, and a sell trade at each red line in a downtrend.
 
 ![AUDUSD H4 Full Chart](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/audusd-full.png)
 
