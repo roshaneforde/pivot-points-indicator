@@ -28,11 +28,9 @@ You can enter a buy trade at each blue line in an uptrend, and a sell trade at e
 
 ![GBPJPY H1 Chart Setup](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/gbpjpy.png)
 
-##  USDJPY - Trade Example
+##  USDJPY H1
 
 ![USDJPY H1 Trade Example](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/usdjpy-trade-example-h1.png)
-
-![USDJPY M15 Trade Example](https://github.com/roshaneforde/pivot-points-indicator/blob/main/screenshots/usdjpy-trade-example-m15.png)
 
 ## AUDUSD H4 - Full Chart
 
